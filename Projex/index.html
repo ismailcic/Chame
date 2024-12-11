@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chame</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="bg">
+        <img src="img/bg.jpg" alt="Background Image">
+    </div>
+    <div class="container">
+        <div class="logo">
+            <img src="img/2.jpg" alt="Logo" title="Chame Logo">
+        </div>
+        <form id="loginForm">
+            <div class="title" style="text-align: center;">Chame</div>
+            <div class="input-box">
+                <div class="icon"><i class="fas fa-envelope"></i></div>
+                <input type="email" id="email" placeholder="Email Giriniz..." required name="email">
+                <div class="underline"></div>
+            </div>
+            <div class="input-box password-container">
+                <input type="password" id="password" placeholder="Şifrenizi Giriniz..." required name="password">
+                <div class="icon-password" onclick="togglePasswordVisibility()">
+                    <i class="fas fa-eye" id="toggleIcon"></i>
+                </div>
+                <div class="underline"></div>
+            </div>
+            <div class="passwordforget">Şifremi unuttum</div>
+            <div class="input-box button">
+                <input type="submit" value="Giriş Yap">
+            </div>
+        </form>
+        <p id="result"></p> <!-- Hata mesajını buraya göstereceğiz -->
+        <div class="text">Veya Sosyal medya ile bağlanın</div>
+        <div class="social-buttons">
+            <a href="#" style="text-decoration: none;" class="google"><i class="fab fa-google"></i> Google ile Giriş</a>
+            <a href="#" style="text-decoration: none;" class="twitter"><i class="fab fa-twitter"></i> Twitter ile Giriş</a>
+            <a href="#" style="text-decoration: none;" class="github"><i class="fab fa-github"></i> Github ile Giriş</a>
+            <a href="#" style="text-decoration: none;" class="facebook"><i class="fab fa-facebook"></i> Facebook ile Giriş</a>
+        </div>
+        <div class="registerbutton"><a href="register.html" style="text-decoration: none;">Hesap oluşturun</a></div>
+    </div>
+</body>
+</html>

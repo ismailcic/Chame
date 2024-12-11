@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uzay Temalı Mesajlaşma</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="">
+            <img src="img/logo.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Ana Sayfa</a></li>
+                <li><a href="#">Mesajlar</a></li>
+                <li><a href="#">Profil</a></li>
+                <li><a href="#">Ayarlar</a></li>
+                <li><a href="#">Arama</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="profile">
+            <div class="profile-header">
+                <img src="img/avatar.png" alt="Profil Fotoğrafı">
+                <div class="profile-info">
+                    <h2>Kullanıcı Adı</h2>
+                    <p>Bu alan biyografinizi içerir.</p>
+                    <button onclick="editProfile()">Profili Düzenle</button>
+                </div>
+            </div>
+            <div class="profile-activity">
+                <h3>Son Etkinlikler</h3>
+                <ul>
+                    <li>Mesaj gönderdi: 10 dakika önce</li>
+                    <li>Yeni fotoğraf ekledi: 30 dakika önce</li>
+                    <li>Yorum yaptı: 1 saat önce</li>
+                </ul>
+            </div>
+        </section>
+        <section class="messages">
+            <h2>Mesajlar</h2>
+            <div class="message-list">
+                <!-- Mesajlar buraya gelecek -->
+            </div>
+            <div class="message-input">
+                <input type="text" placeholder="Mesajınızı yazın...">
+                <button type="button">Gönder</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Uzay Temalı Mesajlaşma. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+
+</html>
